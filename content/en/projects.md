@@ -1,0 +1,26 @@
+---
+featured:
+  - name: "AGNO - Lagkadas Factory"
+    desc: "Structured copper and fibre-optic cabling"
+  - name: "Aristotle University of Thessaloniki"
+    desc: "Interconnection network for all 22 campus buildings and outlying facilities"
+  - name: "Casino Porto Carras S.A."
+    desc: "System integration: Lucent - Ascom - Motorola"
+  - name: "Nestlé Hellas - Platy Imathias Dairy Plant"
+    desc: "Active equipment and IBM Token Ring software network"
+  - name: "General Clinic of Thessaloniki S.A."
+    desc: "Lucent Definity telephone exchange / Motorola radio network"
+register:
+  - client: "HELEXPO - Thessaloniki International Fair S.A."
+    date: "1996"
+    project: "Motorola radio network"
+    budget: "780,000 GRD"
+  - client: "TVX Hellas S.A. - Chalkidiki Gold Mines"
+    date: "1996"
+    project: "Lucent Definity & Merlin networked telephone exchange"
+    budget: "25,000,000 GRD"
+  - client: "Larissa General Hospital"
+    date: "1996"
+    project: "Ascom wireless personnel paging system"
+    budget: "3,500,000 GRD"
+---

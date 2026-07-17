@@ -1,0 +1,82 @@
+{
+  "nav": {
+    "home": "Home",
+    "company": "Company",
+    "services": "Services",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "home": {
+    "eyebrow": "Electromechanical Works · Photovoltaics · Engineering Services",
+    "title": "Integrated technology solutions, from design to construction",
+    "subtitle": "Over 30 years of experience in electromechanical works, photovoltaic parks and infrastructure projects, across Greece and the Balkans.",
+    "cta_services": "See our services",
+    "cta_contact": "Get in touch",
+    "services_title": "Our Services",
+    "services_subtitle": "Integrated solutions for electromechanical projects",
+    "advantages_title": "Our Advantages",
+    "about_title": "A little about us",
+    "about_cta": "Our story",
+    "hero_image_alt": "Engineers and technicians reviewing infrastructure plans on site",
+    "about_image_alt": "Balkan Constructions technical team inspecting a project installation",
+    "testimonials_title": "What clients say",
+    "stat_years": "Years of experience",
+    "stat_coverage": "Nationwide coverage",
+    "stat_since": "Founded"
+  },
+  "services_list": {
+    "engineering": { "title": "Engineering Services", "desc": "TEE e-licenses, permits, certifications, energy audits, electronic building ID, management of DEDDIE / ADMIE requests, worksites" },
+    "electrical": { "title": "Electrical Works", "desc": "Lighting, cabling works, design and construction of electrical installations" },
+    "res": { "title": "Renewable Energy Sources", "desc": "Photovoltaics, wind turbines, biomass, hydroelectric. Design and installation" },
+    "fleet": { "title": "Vehicle Telematics", "desc": "Fleet tracking and management systems" },
+    "smartcity": { "title": "Smart City", "desc": "Design and installation of smart lighting, e-citizen services, smart parking, telematics, smart water and air meters and analyzers" },
+    "waste": { "title": "Waste Treatment Units - Biological", "desc": "Design, construction and maintenance of water and waste treatment units" },
+    "emobility": { "title": "E-mobility", "desc": "Electric vehicle charging stations, design and installation" }
+  },
+  "advantages": {
+    "experience": { "title": "Experience", "desc": "Over 30 years of experience in electromechanical works, photovoltaic parks and DEDDIE projects" },
+    "knowledge": { "title": "Expertise", "desc": "Our team spans a wide range of engineering and scientific specialties and trains continuously on new developments" },
+    "coverage": { "title": "Nationwide Coverage", "desc": "Our team undertakes projects across the country, with partners and specialised teams in every region" },
+    "solutions": { "title": "End-to-End Solutions", "desc": "We provide complete solutions for every project, from tendering and design through to construction" }
+  },
+  "company": {
+    "eyebrow": "Since 1989",
+    "title": "Our Company",
+    "philosophy_title": "Our Philosophy",
+    "vision_title": "Our Vision",
+    "mission_title": "Our Mission",
+    "advantages_title": "Our Advantages",
+    "goals_title": "Our Goals",
+    "timeline_title": "Our Journey"
+  },
+  "services": {
+    "eyebrow": "What we do",
+    "title": "Our Services",
+    "cta_detail": "Explore service",
+    "back": "Back to all services",
+    "highlights": "Highlights",
+    "capabilities": "Capabilities",
+    "sectors": "Typical sectors",
+    "other_services": "Other Services",
+    "contact_cta": "Discuss your project"
+  },
+  "projects": {
+    "eyebrow": "Selected projects",
+    "title": "Projects we've delivered",
+    "table_title": "Indicative Project Register",
+    "table": { "client": "Client", "date": "Date", "project": "Project", "budget": "Budget" }
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Get in touch",
+    "hq_title": "Head Office",
+    "warehouse_title": "Warehouse",
+    "athens_title": "Athens Office",
+    "postal_title": "Postal Addresses",
+    "phone": "Phone",
+    "email": "Email"
+  },
+  "footer": {
+    "rights": "All rights reserved."
+  }
+}

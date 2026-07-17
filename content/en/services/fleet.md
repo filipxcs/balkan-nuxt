@@ -1,0 +1,23 @@
+---
+title: "Vehicle Telematics"
+slug: "fleet"
+summary: "Fleet tracking and management systems that improve visibility, response time and operational control."
+intro: "We implement telematics solutions that help organisations monitor vehicle location, usage and performance with dependable technical infrastructure. The goal is better decision-making, lower downtime and clearer operational oversight."
+image: "https://coresg-normal.trae.ai/api/ide/v1/text_to_image?prompt=fleet%20management%20control%20room%20with%20digital%20vehicle%20tracking%20dashboard%20and%20utility%20vans%2C%20realistic%20professional%20photography%2C%20modern%20technology%20workspace&image_size=landscape_16_9"
+highlights:
+  - "Real-time fleet location and monitoring"
+  - "Operational control through telematics data"
+  - "Scalable systems for distributed vehicle networks"
+capabilities:
+  - "Tracking device installation and setup"
+  - "Fleet data visualisation and reporting support"
+  - "Integration for service, municipal or utility fleets"
+sectors:
+  - "Municipal services"
+  - "Transport and logistics"
+  - "Utility and field-service operations"
+cta: "Bring more control and visibility to your fleet with practical telematics solutions."
+order: 4
+seoTitle: "Vehicle Telematics | Balkan Constructions"
+seoDescription: "Fleet tracking and telematics systems for service fleets, utilities, municipal services and logistics."
+---

@@ -1,0 +1,26 @@
+---
+featured:
+  - name: "ΑΓΝΟ - Εργοστάσιο Λαγκαδά"
+    desc: "Δομημένη καλωδίωση χαλκού και οπτικών ινών"
+  - name: "Α.Π.Θ. - Αριστοτέλειο Πανεπιστήμιο"
+    desc: "Δίκτυο διασύνδεσης όλων των χώρων (22) του campus, αλλά και περιφερειακών εγκαταστάσεων"
+  - name: "Casino Porto Carras Α.Ε."
+    desc: "System integration Lucent - Ascom - Motorola"
+  - name: "Nestlé Hellas - Βιομηχανία Γάλακτος Πλατύ Ημαθίας"
+    desc: "Ενεργά και λογισμικό δίκτυο Token Ring IBM"
+  - name: "Γενική Κλινική Θεσσαλονίκης Α.Ε."
+    desc: "Τηλεφωνικό κέντρο Lucent Definity / ραδιοδίκτυο Motorola"
+register:
+  - client: "HELEXPO - ΔΕΘ Α.Ε."
+    date: "1996"
+    project: "Ραδιοδίκτυο Motorola"
+    budget: "780.000 Δρχ."
+  - client: "TVX Hellas Α.Ε. - Ορυχεία Χρυσού Χαλκιδικής"
+    date: "1996"
+    project: "Τηλεφωνικό κέντρο Lucent Definity & Merlin σε δίκτυο"
+    budget: "25.000.000 Δρχ."
+  - client: "Γενικό Νοσοκομείο Λάρισας"
+    date: "1996"
+    project: "Ασύρματο σύστημα αναζήτησης προσώπων Ascom"
+    budget: "3.500.000 Δρχ."
+---

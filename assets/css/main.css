@@ -1,0 +1,63 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-bone text-navy-950 font-body antialiased;
+}
+
+::selection {
+  @apply bg-copper-500 text-navy-950;
+}
+
+h1, h2, h3, h4 {
+  @apply font-display;
+}
+
+.eyebrow {
+  @apply font-mono text-xs tracking-[0.25em] uppercase text-copper-500;
+}
+
+/* Circuit-line signature motif: a thin trace with a pulsing node,
+   used to connect sections the way a schematic connects components */
+.trace {
+  position: relative;
+}
+.trace::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 1px;
+  background: linear-gradient(to bottom, transparent, theme('colors.steel.500') 15%, theme('colors.steel.500') 85%, transparent);
+  opacity: 0.4;
+}
+
+.node {
+  @apply relative inline-block;
+}
+.node::after {
+  content: '';
+  position: absolute;
+  inset: -6px;
+  border-radius: 999px;
+  border: 1px solid theme('colors.copper.500');
+  opacity: 0.35;
+  animation: pulse-ring 2.4s ease-out infinite;
+}
+@keyframes pulse-ring {
+  0% { transform: scale(0.8); opacity: 0.5; }
+  80% { transform: scale(1.6); opacity: 0; }
+  100% { opacity: 0; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .node::after { animation: none; }
+  html { scroll-behavior: auto; }
+}
+
+.focus-ring:focus-visible {
+  outline: 2px solid theme('colors.copper.500');
+  outline-offset: 3px;
+}
