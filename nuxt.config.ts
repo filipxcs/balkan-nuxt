@@ -4,7 +4,6 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
 
   modules: [
-    '@nuxtjs/seo',
     '@nuxt/content',
     '@nuxtjs/i18n',
     '@nuxtjs/tailwindcss'
