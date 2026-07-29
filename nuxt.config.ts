@@ -80,5 +80,16 @@ export default defineNuxtConfig({
         }
       }
     }
+  },
+
+  vite: {
+    resolve: {
+      alias: [
+        {
+          find: /^unhead$/,
+          replacement: 'unhead/legacy'
+        }
+      ]
+    }
   }
 })
