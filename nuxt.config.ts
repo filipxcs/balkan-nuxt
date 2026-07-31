@@ -1,3 +1,14 @@
+const normalizeBaseURL = (value = '/') => {
+  if (!value || value === '/') {
+    return '/'
+  }
+
+  return `/${value.replace(/^\/+|\/+$/g, '')}/`
+}
+
+const appBaseURL = normalizeBaseURL(process.env.NUXT_APP_BASE_URL)
+const siteUrl = process.env.NUXT_SITE_URL || 'https://balkan-constructions.gr'
+
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   compatibilityDate: '2024-11-01',
@@ -12,12 +23,13 @@ export default defineNuxtConfig({
   css: ['~/assets/css/main.css'],
 
   site: {
-    url: 'https://balkan-constructions.gr',
+    url: siteUrl,
     name: 'Balkan Constructions',
     defaultLocale: 'el'
   },
 
   app: {
+    baseURL: appBaseURL,
     head: {
       titleTemplate: '%s · Balkan Constructions',
       link: [
